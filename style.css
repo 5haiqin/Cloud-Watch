@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+@font-face {
+  font-family: 'AuraSeraphRegular';
+  src: url(AuraSeraphRegular-own3z.ttf);
+}
+@media (min-width: 768px){
+    .mobile-nav{
+    display: none;
+}
+}
+@media (max-width: 768px) { 
+#brand-name,
+.pc-nav{
+  display: none;
+}
+.mobile-nav{
+    display: block;
+}
+.brand-nav{
+    padding: 15px;
+    width:80%;
+}
+.logo-nav{
+    width: 100%;
+}
+.menu-nav{
+    text-align: center;
+}
+.menu-nav table tr td a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.Img-1{
+  padding-top: 0px;
+}
+.intro{
+    text-align: center;
+    padding-top: 30px;
+}
+h4{
+    font-size: 15px !important;
+}
+.intro{
+    font-size:1em !important;
+}
+.weather-card {
+    margin-top: 15px;
+}
+h4 {
+    text-align: center;
+    padding-top: 10px !important;
+}
+.D-left {
+    padding-left: 5%  !important;
+}
+.team-name{
+    font-size: 3em !important;
+    padding-top: 25px;
+}
+.profile-opt{
+    padding: 10px;
+}
+.profile{
+  width: 100%;
+}
+.profile-name{
+  font-size: 1.1em !important;
+}
+.porfile-title{
+    font-size: 12px !important;
+}
+}
+.brand-name{
+  font-family: 'AuraSeraphRegular';
+  font-size: 2em !important;
+  color:#0d6efd ;
+}
+#brand-name{
+  font-size: 5em !important;
+}
+.intro{
+    font-size:1.6em;
+    text-align: justify;
+}
+body {
+    background-image: linear-gradient(180deg, 
+    var(--bs-body-secondary-bg),
+    var(--bs-body-bg) 100px, 
+    var(--bs-body-bg));
+}
+.row{
+    margin-top: 40px;
+}
+.pricing-header {
+    max-width: 700px;
+}
+.LOGO{
+    height: 32px;
+    width: 40px;
+}
+.weather-function {
+    width:100%;
+}
+.weather-card {
+    padding-left: 5%;
+    width:90%;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+.search-form {
+    display: flex;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+#city-input {
+  border: 1px solid rgb(180, 177, 177);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: 5px solid rgba(255, 255, 255, 0);
+}
+.D-left {
+    padding-left: 30%;
+}
+#city-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#temperature {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+#visibility,
+#pressure,
+#humidity,
+#dew-point,
+#feels-like,
+#wind-speed,
+#current-time {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+nav{
+    display: inline-block   ;
+    width: 90%;
+}
+.brand{
+    padding: 20px;
+    width: 20%;
+    float: left;
+}
+.logo{
+    width: 100%;
+}
+.menu{
+    float: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+.menu table tr td a{
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 25px;
+    font-family: "Roboto";
+}
