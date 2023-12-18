@@ -3,11 +3,11 @@
     margin: 0;
 }
 ::-webkit-scrollbar {
-  width: 0px;
+    width: 0px;
 }
 @font-face {
-  font-family: 'AuraSeraphRegular';
-  src: url(AuraSeraphRegular-own3z.ttf);
+    font-family: 'AuraSeraphRegular';
+    src: url(AuraSeraphRegular-own3z.ttf);
 }
 @media (min-width: 768px){
     .mobile-nav{
@@ -17,7 +17,7 @@
 @media (max-width: 768px) { 
 #brand-name,
 .pc-nav{
-  display: none;
+    display: none;
 }
 .mobile-nav{
     display: block;
@@ -38,7 +38,7 @@
     font-size: 16px;
 }
 .Img-1{
-  padding-top: 0px;
+    padding-top: 0px;
 }
 .intro{
     text-align: center;
@@ -68,26 +68,25 @@ h4 {
     padding: 10px;
 }
 .profile{
-  width: 100%;
+    width: 100%;
 }
 .profile-name{
-  font-size: 1.1em !important;
+    font-size: 1.1em !important;
 }
 .porfile-title{
     font-size: 12px !important;
 }
 }
 .brand-name{
-  font-family: 'AuraSeraphRegular';
-  font-size: 2em !important;
-  color:#0d6efd ;
+    font-family: 'AuraSeraphRegular';
+    font-size: 2em !important;
+    color:#0d6efd ;
 }
 #brand-name{
-  font-size: 5em !important;
+    font-size: 5em !important;
 }
 .intro{
     font-size:1.6em;
-    text-align: justify;
 }
 body {
     background-image: linear-gradient(180deg, 
@@ -139,10 +138,10 @@ button {
     cursor: pointer;
 }
 #city-input {
-  border: 1px solid rgb(180, 177, 177);
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-right: 5px solid rgba(255, 255, 255, 0);
+    border: 1px solid rgb(180, 177, 177);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 5px solid rgba(255, 255, 255, 0);
 }
 .D-left {
     padding-left: 30%;
@@ -155,6 +154,23 @@ button {
 #temperature {
     font-size: 48px;
     margin-bottom: 10px;
+}
+#description {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.profile-opt{
+    padding: 15px;
+}
+.profile{
+    border-radius: 25%;
+    width: 50%;
+}
+.profile-name{
+    font-size: 2em;
+}
+.porfile-title{
+    font-size: 1.2em;
 }
 #visibility,
 #pressure,
