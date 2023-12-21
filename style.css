@@ -206,3 +206,12 @@ nav{
     font-size: 25px;
     font-family: "Roboto";
 }
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    transition: all 0.2s;
+}
